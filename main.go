@@ -49,6 +49,16 @@ func main() {
 	firstName2 = "Tricia"
 	fmt.Println(ptr, *ptr) // memory address = 1 (ptr address does not chance) = updated dereference value = "Tricia"
 
-	// NOTE: Why is this? Because the firstName2 variable is still in the same location. We just changed the data that is stored there. The pointer is pointing at firstName2, so it's storing the same memory address. But since we're dereferencing the variable after it has been changed, the pointer dereferences to that new value as well. The value of the pointer changes, but the memory address does not.
+	/*
+		NOTE:
+		Why is this?
+		Because the firstName2 variable is still in the same location.
+		We just changed the data that is stored there.
+		The pointer is pointing at firstName2,
+		so it's storing the same memory address.
+		But since we're dereferencing the variable after it has been changed,
+		the pointer dereferences to that new value as well.
+		The value of the pointer changes, but the memory address does not.
+	*/
 
 }
