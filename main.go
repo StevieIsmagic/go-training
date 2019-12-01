@@ -32,7 +32,8 @@ func main() {
 	fmt.Println(firstName1)  // address in memory
 	fmt.Println(*firstName1) // "Arthur"
 
-	// I specify pointers by preceding with an asterisk *, and I dereference pointers by preceding the declared variable with an asterisk *
+	// I specify pointers by preceding with an asterisk *,
+	// and I dereference pointers by preceding the declared variable with an asterisk *
 
 	// =================
 
